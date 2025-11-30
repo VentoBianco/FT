@@ -1,5 +1,36 @@
+# Byte-compiled / C extensions
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.venv/
 venv/
 env/
-__pycache__/
+
+# Wheels и сборка
+wheels/
+dist/
+build/
+*.egg-info/
+*.egg
+
+# UV lockfile (для библиотек)
+uv.lock
+
+# IDE
 .vscode/
+.vscode-settings.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Тестирование
+.pytest_cache/
+.coverage
+htmlcov/
+
 Test2.py
